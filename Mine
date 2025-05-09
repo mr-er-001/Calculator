@@ -13,6 +13,7 @@ class Program
     static void Main()
     {
         // Declare variables
+ubtraction
  multiplication
  division
         double number1, number2, result;
@@ -41,6 +42,8 @@ class Program
 
  subtraction
         int number1, number2, result;
+       int number1, number2, sum;
+addition
 
         // Get input from user
         Console.Write("Enter first number: ");
@@ -49,6 +52,7 @@ class Program
         Console.Write("Enter second number: ");
         number2 = Convert.ToInt32(Console.ReadLine());
 
+subtraction
  multiplication
         // Multiply numbers
         result = number1 * number2;
@@ -63,5 +67,11 @@ class Program
         // Display result
         Console.WriteLine("The subtraction of {0} and {1} is: {2}", number1, number2, result);
  subtraction
+        // Calculate sum
+        sum = number1 + number2;
+
+        // Display result
+        Console.WriteLine("The sum of {0} and {1} is: {2}", number1, number2, sum);
+ addition
     }
 }
