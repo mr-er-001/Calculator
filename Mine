@@ -13,6 +13,7 @@ class Program
     static void Main()
     {
         // Declare variables
+ multiplication
  division
         double number1, number2, result;
 
@@ -37,6 +38,8 @@ class Program
             Console.WriteLine("Cannot divide by zero!");
         }
 
+
+ subtraction
         int number1, number2, result;
 
         // Get input from user
@@ -46,11 +49,19 @@ class Program
         Console.Write("Enter second number: ");
         number2 = Convert.ToInt32(Console.ReadLine());
 
+ multiplication
         // Multiply numbers
         result = number1 * number2;
 
         // Display result
         Console.WriteLine("The multiplication of {0} and {1} is: {2}", number1, number2, result);
  multiplication
+
+        // Subtract numbers
+        result = number1 - number2;
+
+        // Display result
+        Console.WriteLine("The subtraction of {0} and {1} is: {2}", number1, number2, result);
+ subtraction
     }
 }
